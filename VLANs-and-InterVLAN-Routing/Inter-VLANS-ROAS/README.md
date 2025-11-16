@@ -83,7 +83,7 @@ Switch(config-if)# switchport trunk encapsulation dot1q
 Switch(config-if)# switchport trunk allowed vlan 10,20
 ```
 
-![Trunk](Screenshots/ROAS_Trunk.png)
+![Trunk](Screenshots/Inter_VLANS_ROAS_TRUNK.png)
 
 ---
 
