@@ -131,21 +131,6 @@ Devices in VLAN 10 cannot ping VLAN 20 (no routing yet).
 
 ---
 
-## 📁 Files Included
-
-```
-Configuring-VLANs/
-│
-├── README.md
-├── Stubbs-Configuring_VLANs_Fall_25_A.pka
-└── Screenshots/
-      ├── Config_VLAN_Topology.png
-      ├── Config_VLAN_VLAN_Brief.png
-      ├── Config_Vlan_Interfaces_Switchport.png
-      ├── Config_Vlan_Ping.png
-```
-
----
 
 ## ✅ End of Lab
 
