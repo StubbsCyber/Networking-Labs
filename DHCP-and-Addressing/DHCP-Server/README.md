@@ -29,7 +29,7 @@ These skills directly apply to both networking and cybersecurity operations, inc
   - Default gateway assignment
   - DNS server assignment
 
-![Topology](Screenshots/DHCP_Topology.png)
+![Topology](Screenshots/DHCP_Server_Topology.png)
 
 ---
 
