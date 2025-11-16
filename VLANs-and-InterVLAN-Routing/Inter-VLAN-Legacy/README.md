@@ -33,8 +33,7 @@ You will configure:
 - No subinterfaces  
 - No dot1q  
 
-![Topology](Screenshots/InterVLAN_Legacy_Topology.png)
-
+![Topology](Screenshots/Inter-VLAN_Legacy_Topology.png)
 ---
 
 # ⚙️ Configuration Steps
