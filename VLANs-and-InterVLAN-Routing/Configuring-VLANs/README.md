@@ -89,7 +89,7 @@ Switch(config-if)# exit
 
 Screenshot:
 
-![VLAN Brief](./Screenshots/Config Vlan VLAN Brief.png)
+![VLAN Brief](Configuring-VLANs/Screenshots/Config Vlan VLAN Brief.png)
 
 Command:
 
