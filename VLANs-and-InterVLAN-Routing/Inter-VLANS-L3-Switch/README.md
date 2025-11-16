@@ -22,12 +22,11 @@ Layer 3 switches provide extremely fast inter-VLAN routing and are commonly used
 
 ## 🗂 Topology
 
-- **VLAN 10 – Development** → 10.1.10.0/24  
-- **VLAN 20 – Marketing** → 10.1.20.0/24
-- **VLAN 30 – Executives** (part of the lab topology but not used in this demonstration)
-- **Layer 3 Switch** routes between VLANs  
-- **SVI for VLAN 10** → 10.1.10.1  
-- **SVI for VLAN 20** → 10.1.20.1  
+- VLAN 10 – Development → 10.1.1.0/24  
+- VLAN 20 – Marketing → 10.1.2.0/24  
+- VLAN 30 – Executives → 10.1.3.0/24
+- SVI for VLAN 10 → 10.1.1.1  
+- SVI for VLAN 20 → 10.1.2.1  
 - PCs connected via access ports  
 
 ![Topology](Screenshots/Inter_VLANS_L3Switch_Topology.png)
@@ -136,8 +135,9 @@ Switch# show ip route
 
 Expected:
 ```
-C    10.1.10.0/24 is directly connected, Vlan10
-C    10.1.20.0/24 is directly connected, Vlan20
+C    10.1.1.0/24 is directly connected, Vlan10
+C    10.1.2.0/24 is directly connected, Vlan20
+C    10.1.3.0/24 is directly connected, Vlan30
 ```
 
 ---
@@ -145,12 +145,9 @@ C    10.1.20.0/24 is directly connected, Vlan20
 ## 7️⃣ Inter-VLAN Connectivity Test
 
 ### From VLAN 10 PC → VLAN 20 PC  
-```bash
 ping 10.1.2.100
-```
 
-### From VLAN 20 PC → VLAN 10 PC  
-```bash
+### From VLAN 10 PC → VLAN 30 PC  
 ping 10.1.3.100
 ```
 
