@@ -137,7 +137,7 @@ Gateway: 10.1.20.1
 Switch# show vlan brief
 ```
 
-![VLANs](Screenshots/ROAS_VLAN_Brief.png)
+![VLANs](Screenshots/Inter_VLANS_ROAS_VLAN_Brief.png)
 
 ---
 
