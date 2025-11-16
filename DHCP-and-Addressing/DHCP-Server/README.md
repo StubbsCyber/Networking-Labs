@@ -42,12 +42,12 @@ On the DHCP server → Services → DHCP:
 1. Click **DHCP**
 2. Select **Add Pool**
 3. Enter:
-   - **Pool Name:** LAN
-   - **Default Gateway:** 192.168.1.1
-   - **DNS Server:** 8.8.8.8
-   - **Start IP Address:** 192.168.1.100
+   - **Pool Name:** QA_POOL
+   - **Default Gateway:** 10.1.3.1
+   - **DNS Server:** 0.0.0.0
+   - **Start IP Address:** 10.1.3.100
    - **Subnet Mask:** 255.255.255.0
-   - **Maximum Users:** 50
+   - **Maximum Users:** 100
 4. Click **Save**
 
 ![Server](Screenshots/DHCP_Server_Config.png)
@@ -84,10 +84,10 @@ For each PC:
 Expected results:
 
 ```
-IP Address: 192.168.1.x
+IP Address: 10.1.2.101
 Subnet Mask: 255.255.255.0
-Default Gateway: 192.168.1.1
-DNS Server: 8.8.8.8
+Default Gateway: 10.1.2.1
+DNS Server: 0.0.0.0
 ```
 
 ![PC](Screenshots/DHCP_Server_Obtained_IP.png)
@@ -115,17 +115,12 @@ From any PC command prompt:
 
 ### Ping the default gateway:
 ```bash
-ping 192.168.1.1
+ping 10.1.1.1
 ```
 
 ### Ping another DHCP client:
 ```bash
-ping 192.168.1.x
-```
-
-### Ping a DNS server (if real-world simulation):
-```bash
-ping 8.8.8.8
+ping 10.1.2.1
 ```
 
 ![Ping](Screenshots/DHCP_Server_Ping.png)
