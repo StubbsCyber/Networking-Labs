@@ -90,7 +90,7 @@ Default Gateway: 192.168.1.1
 DNS Server: 8.8.8.8
 ```
 
-![PC](Screenshots/DHCP_PC_Obtained_IP.png)
+![PC](Screenshots/DHCP_Server_Obtained_IP.png)
 
 ---
 
