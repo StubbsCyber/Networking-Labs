@@ -172,17 +172,3 @@ This lab demonstrated:
 Layer 3 switch routing is the fastest and most scalable method for inter-VLAN routing and is widely used in modern enterprise networks.
 
 ---
-
-## 📎 Files Included
-
-```
-Inter-VLAN-L3/
-│
-├── README.md
-├── Stubbs - Inter-VLAN Routing - L3 Switch_Fall_25_A.pka
-└── Screenshots/
-      L3_Topology.png
-      L3_VLAN_Brief.png
-      L3_SVI_Status.png
-      L3_Ping.png
-```
