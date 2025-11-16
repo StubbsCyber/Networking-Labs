@@ -99,12 +99,16 @@ Router(config-if)# no shutdown
 ## Verify VLANs  
 ```bash
 Switch# show vlan brief
+```
+
 ![VLAN Brief](Screenshots/Inter-VLAN_Legacy_Vlan_Brief.png)
 ```
 
 ## Verify Access Ports  
 ```bash
 Switch# show interfaces switchport
+```
+
 ![Switchport Details](Screenshots/Inter-VLAN_Legacy_Interfaces_Switchports.png)
 ```
 
@@ -126,7 +130,7 @@ ping 10.1.2.100
 ```bash
 ping 10.1.1.100
 ```
-![Ping Results](Screenshots/Inter-VLAN_Legacy_Ping.png)
+![Ping Results](Screenshots/Inter-Vlan_Legacy_Ping.png)
 
 
 Successful replies confirm that routing between VLANs is functioning through **separate router physical interfaces**.
