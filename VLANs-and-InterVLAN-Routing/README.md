@@ -30,7 +30,7 @@ The network consists of:
 - 2 devices in the **Marketing** VLAN  
 - No trunking / no inter-VLAN routing in this lab  
 
-![Topology](Screenshots/Config_Vlan_Topology.png)
+![Topology](Configuring-VLANs/Screenshots/Config_Vlan_Topology.png)
 
 ---
 
