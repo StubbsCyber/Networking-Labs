@@ -192,18 +192,3 @@ This ROAS lab demonstrated:
 ROAS is a critical networking concept used widely in real networks and is foundational for Network+ and CCNA studies.
 
 ---
-
-## 📎 Files in This Lab
-
-```
-Inter-VLAN-ROAS/
-│
-├── README.md
-├── Stubbs - Inter-VLAN Routing - ROAS Method_Fall_25_A.pka
-└── Screenshots/
-      ROAS_Topology.png
-      ROAS_VLAN_Brief.png
-      ROAS_Trunk.png
-      ROAS_Subinterfaces.png
-      ROAS_Ping_Tests.png
-```
