@@ -105,7 +105,7 @@ On each PC:
 ipconfig /all
 ```
 
-![Verification](Screenshots/DHCP_Verification.png)
+![Verification](Screenshots/DHCP_Server_Verification.png)
 
 ---
 
