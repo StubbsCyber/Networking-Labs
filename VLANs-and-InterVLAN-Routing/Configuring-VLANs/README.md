@@ -31,7 +31,7 @@ The network consists of:
 - No routing between VLANs  
 - No trunk links  
 
-![Topology](./Screenshots/Config_VLAN_Topology.png)
+![Topology](./Screenshots/Config_Vlan_Topology.png)
 
 ---
 
