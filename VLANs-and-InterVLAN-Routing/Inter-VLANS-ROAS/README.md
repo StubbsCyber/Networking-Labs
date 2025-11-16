@@ -20,8 +20,8 @@ This lab demonstrates how to:
 
 ## 🗂 Topology
 
-- VLAN 10 → 10.1.10.0/24  
-- VLAN 20 → 10.1.20.0/24  
+- VLAN 10 → 10.1.1.0/24, gateway 10.1.1.1  
+- VLAN 20 → 10.1.2.0/24, gateway 10.1.2.1
 - One physical router interface (G0/0), split into:  
   - G0/0.10 (VLAN 10)  
   - G0/0.20 (VLAN 20)  
@@ -77,7 +77,7 @@ Switch(config-if)# switchport access vlan 20
 ## 3️⃣ Configure the Switch Trunk Port
 
 ```bash
-Switch(config)# interface fa0/24
+Switch(config)# interface gig0/1
 Switch(config-if)# switchport mode trunk
 Switch(config-if)# switchport trunk encapsulation dot1q
 Switch(config-if)# switchport trunk allowed vlan 10,20
@@ -101,7 +101,7 @@ Router(config-if)# no shutdown
 ```bash
 Router(config)# interface g0/0.10
 Router(config-subif)# encapsulation dot1Q 10
-Router(config-subif)# ip address 10.1.10.1 255.255.255.0
+Router(config-subif)# ip address 10.1.1.1 255.255.255.0
 ```
 
 ### Subinterface for VLAN 20
@@ -109,7 +109,7 @@ Router(config-subif)# ip address 10.1.10.1 255.255.255.0
 ```bash
 Router(config)# interface g0/0.20
 Router(config-subif)# encapsulation dot1Q 20
-Router(config-subif)# ip address 10.1.20.1 255.255.255.0
+Router(config-subif)# ip address 10.1.2.1 255.255.255.0
 ```
 
 ![Subinterfaces](Screenshots/Inter_VLANS_ROAS_Interfaces.png)
@@ -120,12 +120,12 @@ Router(config-subif)# ip address 10.1.20.1 255.255.255.0
 
 ### VLAN 10 PCs  
 ```
-Gateway: 10.1.10.1
+Gateway: 10.1.1.1
 ```
 
 ### VLAN 20 PCs  
 ```
-Gateway: 10.1.20.1
+Gateway: 10.1.2.1
 ```
 
 ---
@@ -166,12 +166,12 @@ Gig0/0.20   up   up
 
 ### From VLAN 10 → VLAN 20  
 ```bash
-PC> ping 10.1.20.10
+PC> ping 10.1.2.100
 ```
 
 ### From VLAN 20 → VLAN 10  
 ```bash
-PC> ping 10.1.10.10
+PC> ping 10.1.1.100
 ```
 
 ![Ping Tests](Screenshots/Inter_VLANS_ROAS_Ping.png)
