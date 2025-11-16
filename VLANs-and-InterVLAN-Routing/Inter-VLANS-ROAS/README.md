@@ -28,7 +28,7 @@ This lab demonstrates how to:
 - Switch port F0/24 configured as a trunk  
 - PCs assigned to VLANs via access ports  
 
-![Topology](Screenshots/ROAS_Topology.png)
+![Topology](Screenshots/Inter_VLANS_ROAS_Topology.png)
 
 ---
 
