@@ -103,7 +103,7 @@ Switch(config-if)# ip address 10.1.20.1 255.255.255.0
 Switch(config-if)# no shutdown
 ```
 
-![SVIs](Screenshots/L3_SVI_Status.png)
+![SVIs](Screenshots/Inter_VLANS_L3Switch_Interfaces.png)
 
 ---
 
