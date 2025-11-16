@@ -23,7 +23,8 @@ Layer 3 switches provide extremely fast inter-VLAN routing and are commonly used
 ## 🗂 Topology
 
 - **VLAN 10 – Development** → 10.1.10.0/24  
-- **VLAN 20 – Marketing** → 10.1.20.0/24  
+- **VLAN 20 – Marketing** → 10.1.20.0/24
+- **VLAN 30 – Executives** (part of the lab topology but not used in this demonstration)
 - **Layer 3 Switch** routes between VLANs  
 - **SVI for VLAN 10** → 10.1.10.1  
 - **SVI for VLAN 20** → 10.1.20.1  
@@ -92,14 +93,14 @@ This command allows the switch to act like a router and route between VLANs.
 ### SVI for VLAN 10
 ```bash
 Switch(config)# interface vlan 10
-Switch(config-if)# ip address 10.1.10.1 255.255.255.0
+Switch(config-if)# ip address 10.1.1.1 255.255.255.0
 Switch(config-if)# no shutdown
 ```
 
 ### SVI for VLAN 20
 ```bash
 Switch(config)# interface vlan 20
-Switch(config-if)# ip address 10.1.20.1 255.255.255.0
+Switch(config-if)# ip address 10.1.2.1 255.255.255.0
 Switch(config-if)# no shutdown
 ```
 
@@ -111,16 +112,16 @@ Switch(config-if)# no shutdown
 
 ### VLAN 10 PCs  
 ```
-IP: 10.1.10.x  
+IP: 10.1.1.x  
 Mask: 255.255.255.0  
-Gateway: 10.1.10.1  
+Gateway: 10.1.1.1  
 ```
 
 ### VLAN 20 PCs  
 ```
-IP: 10.1.20.x  
+IP: 10.1.2.x  
 Mask: 255.255.255.0  
-Gateway: 10.1.20.1  
+Gateway: 10.1.2.1  
 ```
 
 ---
@@ -145,12 +146,12 @@ C    10.1.20.0/24 is directly connected, Vlan20
 
 ### From VLAN 10 PC → VLAN 20 PC  
 ```bash
-ping 10.1.20.10
+ping 10.1.2.100
 ```
 
 ### From VLAN 20 PC → VLAN 10 PC  
 ```bash
-ping 10.1.10.10
+ping 10.1.3.100
 ```
 
 ![Ping Tests](Screenshots/Inter_VLANS_L3Switch_Ping.png)
