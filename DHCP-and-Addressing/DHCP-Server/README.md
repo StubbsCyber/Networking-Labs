@@ -128,7 +128,7 @@ ping 192.168.1.x
 ping 8.8.8.8
 ```
 
-![Ping](Screenshots/DHCP_Ping.png)
+![Ping](Screenshots/DHCP_Server_Ping.png)
 
 ---
 
