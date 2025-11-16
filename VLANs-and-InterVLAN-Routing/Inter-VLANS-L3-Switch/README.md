@@ -153,7 +153,7 @@ ping 10.1.20.10
 ping 10.1.10.10
 ```
 
-![Ping Tests](Screenshots/L3_Ping.png)
+![Ping Tests](Screenshots/Inter_VLANS_L3Switch_Ping.png)
 
 ---
 
