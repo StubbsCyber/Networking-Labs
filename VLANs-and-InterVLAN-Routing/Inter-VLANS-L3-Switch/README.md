@@ -22,11 +22,11 @@ Layer 3 switches provide extremely fast inter-VLAN routing and are commonly used
 
 ## 🗂 Topology
 
-- VLAN 10 – Development → 10.1.1.0/24  
-- VLAN 20 – Marketing → 10.1.2.0/24  
-- VLAN 30 – Executives → 10.1.3.0/24
-- SVI for VLAN 10 → 10.1.1.1  
-- SVI for VLAN 20 → 10.1.2.1  
+- **VLAN 10 – Development** → 10.1.1.0/24  
+- **VLAN 20 – Marketing** → 10.1.2.0/24  
+- **VLAN 30 – Executives** → 10.1.3.0/24  
+- **SVI for VLAN 10** → 10.1.1.1  
+- **SVI for VLAN 20** → 10.1.2.1  
 - PCs connected via access ports  
 
 ![Topology](Screenshots/Inter_VLANS_L3Switch_Topology.png)
