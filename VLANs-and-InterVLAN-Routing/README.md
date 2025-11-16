@@ -1,46 +1,46 @@
-## Lab: VLANs & Inter-VLAN Routing
+# Lab: Configuring VLANs
 
-### Purpose
-This lab demonstrates how VLANs segment broadcast domains and how inter-VLAN routing enables communication between them using router-on-a-stick.
+This lab demonstrates how to create VLANs, assign switchports to VLANs, and verify VLAN segmentation in a small multi-department network using Cisco Packet Tracer.
 
-### Topology
-- 1 Router  
-- 1 Switch  
-- Multiple PCs  
-- VLAN 10  
-- VLAN 20  
+---
 
-*(Screenshot of topology goes here once uploaded)*
+## 📌 Purpose
 
-### Key Tasks Completed
-1. Created VLANs on the switch  
-2. Assigned switchports to VLANs  
-3. Configured trunking between the switch and router  
-4. Set up router subinterfaces for each VLAN  
-5. Assigned default gateway IPs for each VLAN  
-6. Verified connectivity between VLANs using ping  
+Virtual LANs (VLANs) segment a physical switch into multiple logical networks, improving:
 
-### Important Commands (Examples)
-```bash
-show vlan brief
-show ip interface brief
+- **Security** (traffic separation)
+- **Broadcast domain reduction**
+- **Network organization** (by department or function)
 
-interface g0/0.10
- encapsulation dot1Q 10
- ip address 192.168.10.1 255.255.255.0
+This lab focuses on:
 
-interface g0/0.20
- encapsulation dot1Q 20
- ip address 192.168.20.1 255.255.255.0
-```
+- Creating VLANs  
+- Assigning ports to VLANs  
+- Verifying segmentation using CLI commands  
+- Testing communication within and across VLANs  
 
-### Issues Troubleshooted
-- Ports assigned to the wrong VLAN  
-- Missing or incorrect trunk configuration  
-- Wrong encapsulation VLAN ID on router subinterfaces  
+---
 
-### What I Learned
-- How VLANs isolate traffic into separate broadcast domains  
-- How trunk links carry multiple VLANs between devices  
-- How router-on-a-stick enables routing between VLANs  
-- The importance of verifying VLAN membership and trunk status when troubleshooting
+## 📁 Topology
+
+The network consists of:
+
+- 1 Cisco switch  
+- 2 devices in the **Development** VLAN  
+- 2 devices in the **Marketing** VLAN  
+- No trunking / no inter-VLAN routing in this lab  
+
+![Topology](Screenshots/Config Vlan Topology.png)
+
+---
+
+## 🛠️ Configuration Steps
+
+### **1. Create VLANs**
+
+```text
+vlan 10
+ name DEVELOPMENT
+vlan 20
+ name MARKETING
+
