@@ -112,7 +112,7 @@ Router(config-subif)# encapsulation dot1Q 20
 Router(config-subif)# ip address 10.1.20.1 255.255.255.0
 ```
 
-![Subinterfaces](Screenshots/ROAS_Subinterfaces.png)
+![Subinterfaces](Screenshots/Inter_VLANS_ROAS_Interfaces.png)
 
 ---
 
