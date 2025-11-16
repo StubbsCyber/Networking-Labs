@@ -73,7 +73,7 @@ Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 20
 ```
 
-![VLAN Brief](Screenshots/L3_VLAN_Brief.png)
+![VLAN Brief](Screenshots/Inter_VLANS_L3Switch_Vlan_Brief.png)
 
 ---
 
