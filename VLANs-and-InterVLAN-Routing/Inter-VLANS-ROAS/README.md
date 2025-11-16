@@ -25,7 +25,7 @@ This lab demonstrates how to:
 - One physical router interface (G0/0), split into:  
   - G0/0.10 (VLAN 10)  
   - G0/0.20 (VLAN 20)  
-- Switch port F0/24 configured as a trunk  
+- Switch port Gi0/1 configured as a trunk  
 - PCs assigned to VLANs via access ports  
 
 ![Topology](Screenshots/Inter_VLANS_ROAS_Topology.png)
