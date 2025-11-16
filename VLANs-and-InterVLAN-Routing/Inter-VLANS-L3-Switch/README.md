@@ -29,7 +29,7 @@ Layer 3 switches provide extremely fast inter-VLAN routing and are commonly used
 - **SVI for VLAN 20** → 10.1.20.1  
 - PCs connected via access ports  
 
-![Topology](Screenshots/L3_Topology.png)
+![Topology](Screenshots/Inter_VLANS_L3Switch_Topology.png)
 
 ---
 
