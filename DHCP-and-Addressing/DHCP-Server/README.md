@@ -145,18 +145,3 @@ This lab demonstrated:
 DHCP is a core service in every modern network and a key component in cybersecurity monitoring, where misconfigured or rogue DHCP servers often cause major outages or security issues.
 
 ---
-
-# 📎 Files Included
-
-```
-DHCP-Server/
-│
-├── README.md
-├── Stubbs-DHCP_Server_Fall_25_A.pka
-└── Screenshots/
-      DHCP_Topology.png
-      DHCP_Server_Config.png
-      DHCP_PC_Obtained_IP.png
-      DHCP_Verification.png
-      DHCP_Ping.png
-```
