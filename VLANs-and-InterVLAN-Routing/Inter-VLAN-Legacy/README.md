@@ -55,25 +55,23 @@ Switch(config-vlan)# exit
 ## 2️⃣ Assign Access Ports to VLANs
 
 ### VLAN 10 Ports  
-```bash
-Switch(config)# interface fa0/2
-Switch(config-if)# switchport mode access
-Switch(config-if)# switchport access vlan 10
 
-Switch(config)# interface fa0/3
-Switch(config-if)# switchport mode access
-Switch(config-if)# switchport access vlan 10
+```bash
+Switch(config)# interface range fa0/1 - 4
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 10
+Switch(config-if-range)# exit
+
 ```
 
 ### VLAN 20 Ports  
-```bash
-Switch(config)# interface fa0/13
-Switch(config-if)# switchport mode access
-Switch(config-if)# switchport access vlan 20
 
-Switch(config)# interface fa0/14
-Switch(config-if)# switchport mode access
-Switch(config-if)# switchport access vlan 20
+```bash
+Switch(config)# interface range fa0/13 - 20
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 20
+Switch(config-if-range)# exit
+
 ```
 
 ---
