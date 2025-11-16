@@ -174,7 +174,7 @@ PC> ping 10.1.20.10
 PC> ping 10.1.10.10
 ```
 
-![Ping Tests](Screenshots/ROAS_Ping_Tests.png)
+![Ping Tests](Screenshots/Inter_VLANS_ROAS_Ping.png)
 
 ---
 
