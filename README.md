@@ -5,10 +5,25 @@ These labs demonstrate real-world networking fundamentals and are part of my lea
 
 ---
 
+<details>
+<summary><strong>📚 Table of Contents</strong></summary>
+
+- [Labs Included](#-labs-included)
+  - [DHCP & Addressing](#-dhcp--addressing)
+  - [VLANs & Inter-VLAN Routing](#-vlans--inter-vlan-routing)
+- [Example Topology](#-example-topology)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Repository Purpose](#-repository-purpose)
+- [About Me](#-about-me)
+- [Contact](#-contact)
+</details>
+
+---
+
 ## 📘 Labs Included
 
 ### 🔹 DHCP & Addressing  
-[View Lab](DHCP-and-Addressing/DHCP-Server/README.md)  
+[View Lab](DHCP-and-Addressing/README.md)  
 - DHCP configuration  
 - Static vs dynamic addressing  
 - IP scope setup  
@@ -19,21 +34,21 @@ These labs demonstrate real-world networking fundamentals and are part of my lea
 ### 🔹 VLANs & Inter-VLAN Routing  
 [View Lab](VLANs-and-InterVLAN-Routing/README.md)  
 Contains **three routing methods**:  
-- Legacy Inter-VLAN Routing (separate router interfaces)  
-- Router-on-a-Stick (ROAS) using subinterfaces  
-- Layer 3 Switch Inter-VLAN Routing using SVIs  
+- Legacy routing (separate router interfaces)  
+- Router-on-a-Stick (ROAS)  
+- Layer 3 Switching with SVIs  
 
 Includes:  
 - VLAN creation  
-- Trunking  
-- Access port configuration  
+- Trunk configuration  
+- Access port setup  
 - Gateway assignments  
-- Ping tests between VLANs  
+- Ping test verification  
 
 ---
 
 ## 🖥 Example Topology  
-*(From the VLANs and Inter-VLAN Routing Lab)*  
+*(From the Inter-VLAN Routing Lab)*  
 ![Example Topology](VLANs-and-InterVLAN-Routing/Screenshots/Inter_VLANS_L3Switch_Topology.png)
 
 ---
@@ -71,6 +86,5 @@ This repository reflects my commitment to real-world practice and professional d
 
 ## 📬 Contact
 
-If you'd like to connect, feel free to reach out:  
+Feel free to connect:  
 **GitHub:** https://github.com/StubbsCyber  
-
