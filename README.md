@@ -31,7 +31,8 @@ These labs demonstrate real-world networking fundamentals and are part of my lea
 ---
 
 ### 🔹 VLANs & Inter-VLAN Routing  
-Contains **three routing methods**:  
+Contains **four routing methods**:
+- Configure a VLAN
 - Legacy routing (separate router interfaces)  
 - Router-on-a-Stick (ROAS)  
 - Layer 3 Switching with SVIs  
