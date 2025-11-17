@@ -8,7 +8,7 @@ These labs demonstrate real-world networking fundamentals and are part of my lea
 ## 📘 Labs Included
 
 ### 🔹 DHCP & Addressing  
-[View Lab](DHCP-and-Addressing/README.md)  
+[View Lab](DHCP-and-Addressing/DHCP-Server/README.md)  
 - DHCP configuration  
 - Static vs dynamic addressing  
 - IP scope setup  
