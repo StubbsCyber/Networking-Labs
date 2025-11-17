@@ -23,7 +23,6 @@ These labs demonstrate real-world networking fundamentals and are part of my lea
 ## 📘 Labs Included
 
 ### 🔹 DHCP & Addressing  
-[View Lab](DHCP-and-Addressing/README.md)  
 - DHCP configuration  
 - Static vs dynamic addressing  
 - IP scope setup  
@@ -32,7 +31,6 @@ These labs demonstrate real-world networking fundamentals and are part of my lea
 ---
 
 ### 🔹 VLANs & Inter-VLAN Routing  
-[View Lab](VLANs-and-InterVLAN-Routing/README.md)  
 Contains **three routing methods**:  
 - Legacy routing (separate router interfaces)  
 - Router-on-a-Stick (ROAS)  
