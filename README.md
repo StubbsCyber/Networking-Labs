@@ -48,7 +48,7 @@ Includes:
 
 ## 🖥 Example Topology  
 *(From the Inter-VLAN Routing Lab)*  
-![Example Topology](VLANs-and-InterVLAN-Routing/Screenshots/Inter_VLANS_L3Switch_Topology.png)
+![Example Topology](VLANs-and-InterVLAN-Routing/Inter-VLANS-L3-Switch/Screenshots/Inter_VLANS_L3Switch_Topology.png)
 
 ---
 
